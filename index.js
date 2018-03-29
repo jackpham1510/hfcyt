@@ -59,8 +59,8 @@ io.on('connection', function (socket){
       } else {
         exist[word] = false
         io.emit('new wordlist', wordlist)
-        socket.emit('point up')
       }
+      socket.emit('point up')
     } else {
       user.score = 0
     }
