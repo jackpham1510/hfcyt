@@ -1,0 +1,1 @@
+How Fast Can You Type?
