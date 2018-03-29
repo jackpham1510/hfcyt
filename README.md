@@ -1,7 +1,7 @@
 # How Fast Can You Type?
 A little real-time app
 ## Demo
-[View demo here](https://hfcyt.herokuapp.com/
+[View demo here](https://hfcyt.herokuapp.com/)
 ## Prerequisites
 You need install [Node.js](https://nodejs.org/en/) to run this app
 ## Setup
@@ -11,7 +11,7 @@ cd hfcyt
 npm install or yarn install
 npm run start or yarn start
 ```
-Open another cmd
+Open another cmd, terminal or something...
 ```
 cd hfcyt/client
 npm install or yarn install
