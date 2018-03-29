@@ -7,7 +7,7 @@
   "author": "tiendung1510",
   "license": "MIT",
   "scripts": {
-    "start": "node app.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "express": "^4.16.3",
