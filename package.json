@@ -2,7 +2,7 @@
   "name": "hfcyt",
   "version": "1.0.0",
   "description": "How fast can you type?",
-  "main": "app.js",
+  "main": "index.js",
   "repository": "github.com/tiendung1510/hfcyt",
   "author": "tiendung1510",
   "license": "MIT",
