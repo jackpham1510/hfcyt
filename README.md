@@ -21,5 +21,5 @@ npm run start or yarn start
 * [Express](https://expressjs.com/) - for Back-End
 * [Socket.io](https://socket.io/) - for Real-time
 * [React](https://reactjs.org/) - for Front-End
-* [Element-UI](https://rometools.github.io/rome/) - for Styles, UI
+* [Element-UI](https://eleme.github.io/element-react) - for Styles, UI
 
