@@ -7,10 +7,13 @@
   "author": "tiendung1510",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "heroku-postbuild": "cd client && yarn --production=false && yarn run build"
   },
   "dependencies": {
+    "element-theme-default": "^1.4.13",
     "express": "^4.16.3",
+    "react-transition-group": "^2.3.0",
     "socket.io": "^2.0.4"
   }
 }
