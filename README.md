@@ -1,5 +1,7 @@
 # How Fast Can You Type?
 A little real-time app
+## Demo
+[View demo here](https://hfcyt.herokuapp.com/
 ## Prerequisites
 You need install [Node.js](https://nodejs.org/en/) to run this app
 ## Setup
@@ -17,7 +19,7 @@ npm run start or yarn start
 ```
 ## Build With
 * [Express](https://expressjs.com/) - for Back-End
-* [Socket.io](https://maven.apache.org/) - for Realtime
-* [React](https://rometools.github.io/rome/) - for Front-End
+* [Socket.io](https://socket.io/) - for Real-time
+* [React](https://reactjs.org/) - for Front-End
 * [Element-UI](https://rometools.github.io/rome/) - for Styles, UI
 
