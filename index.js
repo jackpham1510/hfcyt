@@ -9,7 +9,7 @@ let userList = [],
     wordlist = [],
     exist = []
 
-function updateUsers(user, socket){
+function updateUsers(user){
   userList[userList.indexOf(user)].score = user.score
   userList.sort(function (a, b){
     return b.score - a.score
@@ -47,7 +47,7 @@ io.on('connection', function (socket){
     userList.push(user)
     socket.emit('new user', user.id)
     socket.emit('new wordlist', wordlist)
-    updateUsers(user, socket)
+    updateUsers(user)
   })
 
   socket.on('input word', function (word){
@@ -64,7 +64,7 @@ io.on('connection', function (socket){
     } else {
       user.score = 0
     }
-    updateUsers(user, socket)
+    updateUsers(user)
   })
 
   socket.on('disconnect', function (){
